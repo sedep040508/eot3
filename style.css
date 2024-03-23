@@ -142,7 +142,7 @@ section {
 .main_txt {
     color: rgb(10, 4, 75);
     font-family: Lobster;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     line-height: 28.8px;
     letter-spacing: 0.4px;
@@ -205,7 +205,7 @@ section {
 }
 
 .card_tit {
-    color: rgb(173, 52, 62);
+    color: rgb(32, 121, 165);
     font-family: DM Sans;
     font-size: 24px;
     font-weight: 700;
@@ -323,6 +323,7 @@ section {
 .card_text {
     margin-bottom: 50px;
     font-size: 55px;
+    color: rgb(10, 4, 75);
     display: flex;
     justify-content: center;
     font-family: Lobster;
@@ -337,6 +338,7 @@ section {
 }
 
 .butt_right {
+    color: rgb(10, 4, 75);
     font-family: Lobster;
     font-size: 33px;
     max-width: 600px;
@@ -360,18 +362,19 @@ section {
 }
 
  .slider {
-    width: 1000px;
+    width: 900px;
     height: 700px;
     overflow: hidden;
  }
  
  .middle {
     margin-left: 50%;
-    margin-top: 190px;
+    margin-top: 400px;
+    background: rgb(249, 249, 247);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    border: 1px solid #000;
+    border: 1px solid #198754;
  }
  
  .navigation {
@@ -438,6 +441,14 @@ section {
     padding: 50px 50px;
  }
  .slide_tit{
-    font-family: Tauri ;
+    font-family: 'FuturaPT',Arial,sans-serif;
     font-size: 26px;
+    margin-bottom: 50px;
+    color: rgb(10, 4, 75)
+ }
+ .slide_txt{
+    font-family: Lobster;
+    color: rgb(32, 121, 165);
+    font-size: 30px;
+    margin-bottom: 30px;
  }
