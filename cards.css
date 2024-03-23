@@ -65,7 +65,7 @@ button {
   cursor: pointer;
 }
 .submit-button{
-  background: #689073;
+  background: #12a13b;
   width: 150px;
   margin-left: 32%;
   height: 40px;
@@ -642,7 +642,7 @@ img {
   background-image: radial-gradient(circle, rgb(48, 181, 108) 20%, transparent 20%),
     radial-gradient(circle, transparent 20%, rgb(48, 181, 108) 20%, transparent 20%),
     radial-gradient(circle, rgb(48, 181, 108) 20%, transparent 20%),
-    radial-gradient(circle, rgb(48, 181, 108) 20%, transparent 20%),
+    radial-gradient(circle, rgb(14, 172, 82) 20%, transparent 20%),
     radial-gradient(circle, transparent 10%, rgb(48, 181, 108) 15%, transparent 20%),
     radial-gradient(circle, rgb(48, 181, 108) 20%, transparent 20%),
     radial-gradient(circle, rgb(48, 181, 108) 20%, transparent 20%),
