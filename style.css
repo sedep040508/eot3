@@ -434,6 +434,10 @@ section {
  #r4:checked ~ .s1 {
     margin-left: -75%;
  }
+ .slide_text{
+    padding: 50px 50px;
+ }
  .slide_tit{
-    
+    font-family: Tauri ;
+    font-size: 26px;
  }
