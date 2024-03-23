@@ -95,7 +95,6 @@ section{
     gap: 20px;
 }
 .main{
-    margin-top: -50px;
     background: url(img/bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,5 +102,5 @@ section{
     height: 868px;
 }
 .main_tit{
-    
+
 }
