@@ -168,7 +168,19 @@ section {
 }
 
 .use_img {
-    width: 306px;
-    height: 320px;
+    width: 150px;
+    height: 150px;
+    margin-left: 130px;
+    margin-top: 30px;
     border-radius: 12px;
+    margin-bottom: 50px;
+}
+
+.use_txt {
+    color: #198754;
+    font-family: Lobster;
+    font-size: 26px;
+    line-height: 38px;
+    padding: 0px;
+    margin-left: 10px;
 }
