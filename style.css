@@ -80,3 +80,25 @@ section{
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.logo{
+    width: 50px;
+    filter: brightness(150%);
+    margin-left: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-filter: brightness(150%);
+}
+.d-flex{
+    gap: 15px;
+}
+.navbar-nav{
+    gap: 20px;
+}
+.main{
+    margin-top: -50px;
+    background: url(img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 868px;
+}
