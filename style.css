@@ -155,3 +155,18 @@ section {
     width: 189px;
     height: 44px;
 }
+
+.use_card {
+    box-sizing: border-box;
+    border: 1.5px solid rgb(219, 223, 208);
+    border-radius: 12px;
+    background: rgb(255, 255, 255);
+    width: 306px;
+    height: 443px;
+}
+
+.use_img {
+    width: 306px;
+    height: 320px;
+    border-radius: 12px;
+}
