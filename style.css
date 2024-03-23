@@ -360,15 +360,18 @@ section {
 }
 
  .slider {
-    width: 800px;
-    height: 500px;
+    width: 1000px;
+    height: 700px;
     overflow: hidden;
  }
  
  .middle {
+    margin-left: 50%;
+    margin-top: 190px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    border: 1px solid #000;
  }
  
  .navigation {
@@ -430,4 +433,7 @@ section {
  
  #r4:checked ~ .s1 {
     margin-left: -75%;
+ }
+ .slide_tit{
+    
  }
