@@ -1,0 +1,21 @@
+@media screen and (max-width: 990px) {
+	.middle{
+        display: none;
+    }
+    .cards{
+        justify-content: center;
+        display: flex;
+    }
+    .but_tit{
+        line-height: 50px;
+    }
+    .btns{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 1300px) {
+	.use_card{
+        margin-bottom: 30px;
+    }
+    
+}
