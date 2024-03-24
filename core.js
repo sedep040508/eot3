@@ -232,7 +232,6 @@ function toggleItems() {
     if (limit == counter.length) {
       return;
     }
-    
 
     for (let i = 0; i < counter.length; i++) {
       let pos = counter[i].getBoundingClientRect().top; //Позиция блока, считая сверху окна
@@ -243,15 +242,16 @@ function toggleItems() {
         limit++; // Счетчик будет запущен, увеличиваем переменную на 1
         let int = setInterval(function () {
           // Раз в 60 миллисекунд будет прибавляться 50-я часть нужного числа
-          x = x + Math.ceil(counter[i].dataset.to / 50);
+          x = x + Math.ceil(counter[i].dataset.to / 20);
           counter[i].innerText = x;
           if (x > counter[i].dataset.to) {
             //Как только досчитали - стираем интервал.
             counter[i].innerText = counter[i].dataset.to;
             clearInterval(int);
           }
-        }, 30);
+        }, 60);
       }
     }
-  })
+  });
+
 })();
