@@ -430,3 +430,4 @@ const cards = [
 		imges_2: 'img/serdechko.svg'
 	},
 ]
+
