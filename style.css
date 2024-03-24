@@ -780,7 +780,7 @@ section {
   nav{
     display: flex;
     align-items: center;
-    
+    color:rgb(10, 4, 75);
     font-weight: 700;
   }
   .header_right{
