@@ -232,6 +232,7 @@ function toggleItems() {
     if (limit == counter.length) {
       return;
     }
+    
 
     for (let i = 0; i < counter.length; i++) {
       let pos = counter[i].getBoundingClientRect().top; //Позиция блока, считая сверху окна
