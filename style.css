@@ -657,5 +657,6 @@ section {
     } 
   } 
   header{
-    
+    height: 94px;
+    max-width: 1600px;
   }
