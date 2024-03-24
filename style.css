@@ -205,7 +205,7 @@ section {
 }
 
 .card_tit {
-    color: rgb(32, 121, 165);
+    color: #2f70af;
     font-family: DM Sans;
     font-size: 24px;
     font-weight: 700;
@@ -352,7 +352,7 @@ section {
 
 .but_btn {
     border-radius: 8px;
-    background: rgb(62, 133, 168);
+    background: #2f70af;
     height: 64px;
     color:#F5F5F5;
     display: flex;
@@ -448,7 +448,7 @@ section {
  }
  .slide_txt{
     font-family: Lobster;
-    color: rgb(32, 121, 165);
+    color: #2f70af;
     font-size: 30px;
     margin-bottom: 30px;
  }
@@ -561,7 +561,7 @@ section {
   } 
    
   .logo { 
-    margin: 24px 0; 
+    margin: 14px 0; 
   } 
    
   .logo__img { 
@@ -757,10 +757,18 @@ section {
       background-positon-x: 0px; 
     } 
   } 
-  header{
+  .header{
     height: 94px;
+    /* position: fixed; */
     max-width: 1600px;
+    background: rgb(249, 249, 247);
   }
   .header_tit{
-    
+    margin-top: 20px;
+    font-family: Lobster;
+    font-size: 30px;
+    color: #2f70af;
+  }
+  .header_logo{
+    gap: 15px;
   }
