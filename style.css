@@ -98,10 +98,10 @@ section {
 }
 
 .logo {
-    width: 65px;
+    width: 50px;
     filter: brightness(150%);
     margin-left: 50px;
-    height: 65px;
+    height: 50px;
     border-radius: 50%;
     -webkit-filter: brightness(150%);
 }
@@ -634,8 +634,6 @@ section {
   } 
    
   .active { 
-    background: #76aadf ; 
-    color: #ffffff; 
    
     &:after { 
       bottom: 20px; 
@@ -803,4 +801,12 @@ section {
     color: #fff;
     background:#2f70af ;
   }
-  
+  .btn-outline-success{
+    color:#2f70af;
+  }
+  .progress{
+    height: 400px;
+  }
+  .progress, .progress-stacked{
+    --bs-progress-height: 400px;
+  }
