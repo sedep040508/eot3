@@ -221,12 +221,7 @@ section {
   -ms-transition: 0.3s;
   -o-transition: 0.3s;
 }
-p{
-  font-size: 12px;
-  font-weight: normal;
-  font-family: 'Courier New', Courier, monospace;
-  font: 1em sans-serif;
-}
+
 
 img {
   border-radius: 8px 8px 0 0;
