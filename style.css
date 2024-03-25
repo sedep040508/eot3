@@ -355,13 +355,18 @@ section {
     border-radius: 8px;
     background: #2f70af;
     height: 64px;
+    transition: 0.3s;
     color:#F5F5F5;
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 23px;
 }
-
+.but_btn:hover{
+  background: #fff;
+  color:#2f70af;
+  border: 1px solid #2f70af;
+}
  .slider {
     width: 900px;
     height: 700px;
@@ -499,6 +504,7 @@ section {
   .znak {
     align-items: center;
     display: flex;
+    margin-top: 12px;
   }
   
   .first-per {
