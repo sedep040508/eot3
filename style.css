@@ -160,11 +160,15 @@ section {
     box-sizing: border-box;
     border: 1.5px solid rgb(219, 223, 208);
     border-radius: 12px;
-
+    transition: 0.3s;
     /* Neutral/02 */
     background: rgb(249, 249, 247);
     width: 416px;
     height: 408px;
+}
+
+.use_card:hover {
+  box-shadow: -8px 6px 75px -4px rgba(0,0,0,0.75);
 }
 
 .use_img {
