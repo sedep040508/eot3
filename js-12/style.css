@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(111, 153, 188, 1) 0%, rgba(36, 234, 99, 1) 68%, rgba(21, 225, 162, 1) 81%, rgba(8, 217, 221, 1) 93%, rgba(0, 212, 255, 1) 100%);
+    font-family: arial;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.input {
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    border: 1px solid blur(100px);
+    padding: 15px 12px;
+    line-height: 1;
+    font-size: 18px;
+    width: 400px;
+}
+
+input[type=text],
+[type=password] {
+    background: rgb(24, 199, 143) 81%;
+    color: white;
+    transition: width 0.4s ease-in-out;
+}
+
+input::placeholder {
+    color: white;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #000;
+    padding: 5px 18px;
+    transition: 0.3s;
+    background: #fff;
+    font-family: lobster;
+    font-size: inherit;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 25px;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+button:hover,
+button.active {
+    background: #000;
+    color: #fff;
+}
+
+.text {
+    border: 2px solid #000;
+    width: 400px;
+    padding: 25px 15px;
+    min-height: 200px;
+}
+
+
+
+.form {
+    box-shadow: #ccc;
+    border-radius: 50px;
+    border: 5px solid blur(100px);
+    backdrop-filter: blur(100px);
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgb(1, 0, 19) 0%, rgb(89, 127, 158) 0%, rgb(29, 193, 81) 68%, rgb(19, 184, 131) 81%, rgb(8, 191, 195) 93%, rgb(2, 183, 219) 100%);
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input_txt {
+    width: 400px;
+    color: red;
+    display: none;
+}
+
+.input_wrap__psw {
+    margin-top: 25px;
+}
+
+.success {
+    display: none;
+    text-align: center;
+    font-size: 50px;
+}
+
+.btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    background: rgb(22, 159, 65);
+    box-shadow: 0 5px 0 rgb(14, 123, 49);
+}
+
+.btn:hover {
+    background: rgb(26, 177, 74);
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+}
+
+.pass {
+    color: white;
+    margin-bottom: 60px;
+    font-family: Cormorant Infant;
+}
+
+.word {
+    color: white;
+    margin-bottom: 60px;
+    font-family: Cormorant Infant;
+}
