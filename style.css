@@ -764,7 +764,7 @@ section {
     height: 94px;
     position: fixed;
     z-index: 1000;
-    gap: 178px;
+    gap: 180px;
     max-width: 1600px;
     background: rgb(249, 249, 247);
   }
@@ -803,3 +803,4 @@ section {
     color: #fff;
     background:#2f70af ;
   }
+  
