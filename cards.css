@@ -225,6 +225,7 @@ p{
   font-size: 12px;
   font-weight: normal;
   font-family: 'Courier New', Courier, monospace;
+  font: 1em sans-serif;
 }
 
 img {
