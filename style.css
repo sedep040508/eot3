@@ -513,9 +513,9 @@ section {
   .years {
     /* small/regular */
     color: rgb(66, 69, 81);
-    font-family: Lato;
-    font-size: 14px;
-    font-weight: 400;
+    font-family: Pacifico;
+    font-size: 20px;
+    font-weight: 700;
     line-height: 150%;
     letter-spacing: 0%;
     text-align: center;
@@ -580,6 +580,10 @@ section {
   .accordeon { 
     width: 100%; 
   } 
+
+  .questions {
+    margin-bottom: 150px;
+  }
 
   .questions-tit{
     text-align: center;
